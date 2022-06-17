@@ -7,10 +7,18 @@
 	"service": "app",
 	"workspaceFolder": "/workspace",
 	"settings": {
-		"go.toolsManagement.checkForUpdates": "local",
-		"go.useLanguageServer": true,
-		"go.gopath": "/go",
-		"go.goroot": "/usr/local/go"
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "postgres",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "postgres",
+				"database": "postgres",
+				"username": "postgres",
+				"password": "postgres"
+			}
+		]
 	},
 	"extensions": [
 		"golang.go",
